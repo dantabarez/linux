@@ -16,7 +16,11 @@ ll -i
 
 i indicador de inodo, espacio en disco y el numero de enlaces duros
 
+<<<<<<< HEAD
 ## ENLACE DURO ##
+=======
+##ENLACE DURO##
+>>>>>>> ea3edb858024a1bf6262a3d72e49f18641c5227e
 
 es un archivo que apunta al mismo contenido almacenado en el disco que el archivo original.
 es como una copia pero que no ocupa espacio en disco, solo con archivos.
@@ -40,7 +44,11 @@ total 0
 
 todo cambio se refleja en los enlaces y en el original. 
 
+<<<<<<< HEAD
 ## ENLACE SIMBOLICO ##
+=======
+##ENLACE SIMBOLICO##
+>>>>>>> ea3edb858024a1bf6262a3d72e49f18641c5227e
 
 referencia a directorios es netamente un acceso directo
 

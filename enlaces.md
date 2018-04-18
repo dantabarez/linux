@@ -19,6 +19,7 @@ i indicador de inodo, espacio en disco y el numero de enlaces duros
 ## ENLACE DURO ##
 
 
+
 es un archivo que apunta al mismo contenido almacenado en el disco que el archivo original.
 es como una copia pero que no ocupa espacio en disco, solo con archivos.
 comparten el mismo inodo.
@@ -42,6 +43,7 @@ total 0
 todo cambio se refleja en los enlaces y en el original. 
 
 ## ENLACE SIMBOLICO ##
+
 
 
 referencia a directorios es netamente un acceso directo

@@ -14,11 +14,8 @@ ls -li
 ll -i
 ```
 
-<<<<<<< HEAD
 **i** indicador de inodo, espacio en disco y el numero de enlaces duros
-=======
-** i ** indicador de inodo, espacio en disco y el numero de enlaces duros
->>>>>>> 48a28cadd9cb1f501cc0b234491793882bd15425
+
 
 ## ENLACE DURO ##
 

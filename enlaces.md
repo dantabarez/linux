@@ -1,14 +1,18 @@
+#ENLACES uso del comando ln Link-Name
+
 en windows accesos directos, es similar 
 enlaces duros
 enlaces simbólicos
 para comprender los enlaces duros es necesario entender como funciona el disco
 
+```
 ls -li
 ll -i
+```
 
 i indicador de inodo, espacio en disco y el numero de enlaces duros
 
-ENLACE DURO
+##ENLACE DURO
 
 es un archivo que apunta al mismo contenido almacenado en el disco que el archivo original.
 es como una copia pero que no ocupa espacio en disco, solo con archivos.
@@ -21,6 +25,7 @@ ln [fichero origen] [fichero de enlace duro]
 [dtabarez@dan enlaces]$ ln original enlace2
 [dtabarez@dan enlaces]$ ln original enlace3
 
+
 [dtabarez@dan enlaces]$  ll -i
 total 0
 23068711 -rw-rw-r--. 4 dtabarez dtabarez 0 Apr 14 18:03 enlace1
@@ -31,7 +36,7 @@ total 0
 
 todo cambio se refleja en los enlaces y en el original. 
 
-ENLACE SIMBOLICO
+##ENLACE SIMBOLICO
 
 referencia a directorios es netamente un acceso directo
 

@@ -1,4 +1,4 @@
-ENLACES uso del comando ln Link-Name
+ENLACES uso del comando ln (Link-Name)
 ======================
 
 
@@ -14,17 +14,15 @@ ls -li
 ll -i
 ```
 
-i indicador de inodo, espacio en disco y el numero de enlaces duros
+**i** indicador de inodo, espacio en disco y el numero de enlaces duros
 
 ## ENLACE DURO ##
-
-
 
 es un archivo que apunta al mismo contenido almacenado en el disco que el archivo original.
 es como una copia pero que no ocupa espacio en disco, solo con archivos.
 comparten el mismo inodo.
 
-** ln [fichero origen] [fichero de enlace duro] **
+**ln [fichero origen] [fichero de enlace duro]**
 
 ```
 [dtabarez@dan enlaces]$ ln original enlace1
@@ -52,4 +50,6 @@ ln -s [directorio origen] [nombre acceso directo]
 
 si borro el directorio original se pierde el acceso a la carpeta.
 
+```
 [dtabarez@dan enlaces]$ ln -s simbolicos/ simbolico1
+```

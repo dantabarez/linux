@@ -1,16 +1,18 @@
 Navegación entre directorios y listado de archivos
 ==================================================
 
-## pwd Print Work Directory ##
+## pwd -- Print Work Directory ##
 
 imprime donde estoy
+
+**pwd**
 
 ```
 [dtabarez@dan ~]$ pwd
 /home/dtabarez
 ```
 
-## cd Change Directory ##
+## cd -- Change Directory ##
 
 con cd me muevo
 
@@ -24,9 +26,9 @@ moverme al home
 [dtabarez@dan ~]$ cd
 ```
 
-## ls List ##
+## ls -- List ##
 
-listo en directorio actuals
+listo en directorio actuales
 
 **ls**
 
@@ -75,7 +77,7 @@ otros comandos utiles
 -i precede la salida con el número de i-node
 
 
-## du Disk Usage##
+## du -- Disk Usage ##
 
 lista la sumatoria de un grupo de archivos e directorio actual
 

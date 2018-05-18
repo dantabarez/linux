@@ -1,14 +1,14 @@
-Navegación entre directorios y listado de archivos
-==================================================
+01 Navegación entre directorios y listado de archivos
+=====================================================
 
 ## pwd -- Print Work Directory ##
 
 imprime donde estoy
 
-**pwd**
+** pwd **
 
 ```
-[dtabarez@dan ~]$ pwd
+$ pwd
 /home/dtabarez
 ```
 
@@ -16,24 +16,38 @@ imprime donde estoy
 
 con cd me muevo
 
-**cd [ruta]**
+** cd [ruta] **
+
+moverme a ruta raiz
 
 ```
-[dtabarez@dan ~]$ cd /
+$ cd /
+```
 
 moverme al home
-[dtabarez@dan ~]$ cd ~
-[dtabarez@dan ~]$ cd
 ```
+$ cd ~
+$ cd
+
+```
+atras
+
+```
+cd ..
+```
+
+dos tipos de rutas:
+
+1. ruta absoluta.- ruta desde el home del usuario
+2. ruta relativa.- ruta desde la posicion actual
 
 ## ls -- List ##
 
 listo en directorio actuales
 
-**ls**
+** ls **
 
-ls -l
-en forma de lista larga
+ls -l en forma de lista larga
 
 el - fichereo y d es di
 
@@ -41,16 +55,18 @@ el - fichereo y d es di
 ls -lt
 ls -ltr
 ls -lh
-h es legible humanamente
-
 ls -lhS
+```
+-h es legible humanamente
+-l listado largo
+
 ordena por tamano mayor va primero
 
+```
 ll -hSr
-
 ```
 
-otros comandos utiles
+** otros comandos utiles **
 
 -a todos los archivos, incluso los que comienzan con punto (.).
 
@@ -77,15 +93,23 @@ otros comandos utiles
 -i precede la salida con el número de i-node
 
 
-## du -- Disk Usage ##
 
+## du -- Disk Usage ##
 lista la sumatoria de un grupo de archivos e directorio actual
 
-**du**
+** du **
 
 ```
 du
-
 du -h --max-depth=1
+```
+## clear -- Clear Screen ##
+
+limpia pantalla actual, ctrl + l
+
+
+```
+
+clear
 
 ```

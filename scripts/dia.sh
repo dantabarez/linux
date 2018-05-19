@@ -1,7 +1,11 @@
 #!/bin/bash
+
 DIA=$( date +%A )
-if [[ $DIA="friday" ]]; then
+
+echo "Hoy es "$DIA
+
+if [[ $DIA = "Friday" ]]; then
   #statements
   echo "TGIF!!!! ya es Viernes!!! "
-  echo $DIA
+
 fi

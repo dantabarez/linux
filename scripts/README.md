@@ -69,12 +69,13 @@ para operaciones aritmeticas uso doble parentesis
 o el uso de []
 
 
-
 3. FUNCIONES
 
+```sh
 function nombre_funcion {
 
 }
+```
 
 por defecto las variables son globales.
 tambien existen variables locales para cada, para eso existe la palabra local
@@ -82,26 +83,30 @@ tambien existen variables locales para cada, para eso existe la palabra local
 
 4. IF
 
-
+```sh
 if [[ condition ]]; then
 #statements
 fi
+```
 
 tambien puedo usar
 
+```sh
 elif [[ condition ]]; then
 #statements
 
 else
 #statements
-
+```
 
 competar parametros para comparaciones
+
+```
 -eq
 =
 ==
 -lt
-
+```
 
 4.4 CASE
 

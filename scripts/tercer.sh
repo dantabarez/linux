@@ -18,6 +18,7 @@ cp /etc/sysconfig/network /home/dtabarez/Downloads/$NOMBRE_FICHERO
 #---------------------
 
 #comparacion entre el uso de $() y `` tildes invertidas para ejecucion de comandos en Shell, los dos hacen lo mismo
+#scripts muestran el numero de de ficheros .sh en la carpeta actual
 
 echo "Tenemos $(find . -iname "*.sh" | wc -l) scripts"
 echo "Tenemos `find . -iname "*.sh" | wc -l` scripts"

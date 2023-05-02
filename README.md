@@ -1,10 +1,10 @@
-# linux
-comandos y scrips para linux. sacados de diferentes cursos y tutoriales
+# Linux
+Comandos y scripts para Linux, sacados de diferentes cursos y tutoriales.
 
-tratando de aprender un poco de github
+Tratando de aprender un poco de GitHub al mismo tiempo.
 
-gracias por visitar
+Espero que alguno de los archivos sea útil.
 
-:)
+Gracias por visitar.
 
-nuevos cambios en carpeta comandos
+@dantabarez
